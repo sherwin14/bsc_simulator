@@ -1,0 +1,20 @@
+{
+	"name": "expressws",
+	"version": "1.0.0",
+	"description": "",
+	"main": "client.js",
+	"scripts": {
+		"m-start": "webpack src/app.js --output bin/app.js -d --watch",
+		"start": "node server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"mithril": "^2.0.4",
+		"ws": "^7.2.1"
+	},
+	"devDependencies": {
+		"webpack": "^4.41.5",
+		"webpack-cli": "^3.3.10"
+	}
+}
